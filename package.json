@@ -11,6 +11,9 @@
     "dev": "node-sass -w src/scss/all.scss dist/basal.css",
     "prepublishOnly": "npm run clean && npm run build"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ollo/basal.git"
