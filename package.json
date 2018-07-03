@@ -1,0 +1,31 @@
+{
+  "name": "basal",
+  "version": "0.1.0",
+  "description": "A lightweight, css microframework. Minimal by design.",
+  "homepage": "https://github.com/ollo/basal",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --output-style='compressed' --source-map=true src/scss/all.scss dist/basal.css",
+    "dev": "node-sass -w src/scss/all.scss dist/basal.css",
+    "postInstall": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ollo/basal.git"
+  },
+  "keywords": [
+    "css",
+    "microframework",
+    "scss"
+  ],
+  "author": "Joshua Ray <joshua@ollomedia.com> (http://ollomedia.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ollo/basal/issues"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

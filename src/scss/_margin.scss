@@ -1,0 +1,13 @@
+$margin: 1rem;
+
+.bump0  { margin: 0; }
+.bump-x--0 { margin-left: 0; margin-right: 0; }
+.bump-y--0 { margin-top: 0; margin-bottom: 0; }
+
+.bump--1  { margin: $margin; }
+.bump-x--1 { margin-left: $margin; margin-right: $margin; }
+.bump-y--1 { margin-top: $margin; margin-bottom: $margin; }
+
+.bump-2  { margin: $margin*2; }
+.bump-x--2 { margin-left: $margin*2; margin-right: $margin*2; }
+.bump-y--2 { margin-top: $margin*2; margin-bottom: $margin*2; }
