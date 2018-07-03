@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node-sass --output-style='compressed' --source-map=true src/scss/all.scss dist/basal.css",
     "dev": "node-sass -w src/scss/all.scss dist/basal.css",
-    "postInstall": "npm run clean && npm run build"
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
