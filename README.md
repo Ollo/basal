@@ -1,10 +1,10 @@
 # Basal
 
+[![npm version](https://badge.fury.io/js/basal.svg)](https://badge.fury.io/js/basal)
+
 A lightweight, css microframework. Minimal by design.
 
 ## Installation
-
-[NPM](https://www.npmjs.com/package/basal)
 
 ```
 npm i basal
