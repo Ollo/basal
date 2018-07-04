@@ -1,6 +1,6 @@
 {
   "name": "basal",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A lightweight, css microframework. Minimal by design.",
   "homepage": "https://github.com/ollo/basal",
   "main": "index.js",
