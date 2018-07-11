@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+const zlib = require('zlib')
+const sass = require('node-sass')
+const fs = require('fs')
+
+const result = sass.renderSync({
+	file: 'src/scss/all.scss',
+	outputStyle: 'compressed',
+	outFile: 'dist/basal.css',
+	sourceMap: true,
+})
+
+// gzip
+const gzip = zlib.createGzip()
+const inp = fs.createReadStream('dist/basal.css')
+const out = fs.createWriteStream('dist/basal.css.gz')
+
+inp.pipe(gzip).pipe(out)

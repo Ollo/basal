@@ -1,8 +1,15 @@
 # Basal
+"A simple, 2.2kb gzipped css starting point."
 
 [![npm version](https://badge.fury.io/js/basal.svg)](https://badge.fury.io/js/basal)
 
-A lightweight, css microframework. Minimal by design.
+---
+> ## ba·sal
+> ˈbāsəl,ˈbāzəl
+>
+> adjective : `technical`
+>
+> forming or belonging to a bottom layer or base.
 
 ## Installation
 
@@ -26,23 +33,19 @@ import 'basal/dist/basal.css'
 This is an intentionally simple package with low complexity.
 As such there are no associated tests or linters in place.
 
-To make changes
-
-Fork the repo https://github.com/ollo/basal and clone it locally.
-
-
 **Install the dependencies**
 ```
 npm install
 ```
 
-Run node-sass in watch mode for live reloading when package is linked.
+Then to develop locally:
 
 ```
 npm run dev
 ```
+This runs node-sass in watch mode for live reloading if the package is [linked](https://docs.npmjs.com/cli/link).
 
-Build minified version for production.
+To build a minified version for production.
 
 ```
 npm run build
